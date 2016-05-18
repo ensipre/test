@@ -26,7 +26,7 @@ class UserController {
         User user = User.findById(params.id)
         if (user){
             user.delete()
-            render "Deleted user"
+            render "Deleted user asd"
         }
         else {
             flash.message = "User not found"
